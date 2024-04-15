@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import handwritingRobotImg from "@/public/handwritingRobot.jpg";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -54,11 +54,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Test Project",
+    title: "Handwriting Robot",
     description:
-      "This is a description of my project. Here is some more filler text because my description is not short.",
-    tags: ["Skills", "I", "Used", "in", "my", "Project"],
-    imageUrl: corpcommentImg,
+      "I worked with the Projects Committee of Women in Computing at RIT to help rebuild this handwriting robot.",
+    tags: ["Collaboration", "3D Modeling", "Physical Fabrication"],
+    imageUrl: handwritingRobotImg,
   },
 ] as const;
 
