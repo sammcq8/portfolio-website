@@ -91,7 +91,6 @@ export const projectsData = [
       " We won the Constellation Brands Elevating Female Founders award at WiCHacks 2024",
     tags: ["Next.js", "3D Typescript", "Vercel"],
     imageUrl: sipSageImg,
-    url: "http://sipsage.co"
   },
   {
     title: "Handwriting Robot",
