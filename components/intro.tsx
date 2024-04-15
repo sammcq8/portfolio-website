@@ -10,6 +10,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { firstName, github, linkedin, loveToDo, major, year } from "@/lib/data";
+import portraitImage from "@/public/portrait.jpg"
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -32,7 +33,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/portrait.jpg"
+              src={portraitImage}
               alt={firstName + " Portrait"}
               width="192"
               height="192"
